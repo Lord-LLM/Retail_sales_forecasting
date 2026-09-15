@@ -209,7 +209,7 @@ def forecast_chart(actual: pd.Series, forecast: pd.Series, lower: pd.Series, upp
 def main():
     st.set_page_config(page_title="Retail Sales Forecasting", page_icon="📈", layout="wide")
 
-    st.title("📈 Retail Sales Forecasting Dashboard")
+    st.title("Retail Sales Forecasting Dashboard")
     st.caption(f"Source: FRED — {DEFAULTS['SERIES_NAME']}")
 
     fred = get_fred_client()
